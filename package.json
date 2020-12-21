@@ -47,5 +47,6 @@
   "devDependencies": {
     "gh-pages": "^3.1.0"
   },
-  "homepage": "https://dylanb5402.github.io/ucsd-ge/"
+  "homepage": "https://dylanb5402.github.io/ucsd-ge",
+  "repo": "https://github.com/DylanB5402/ucsd-ge.git"
 }

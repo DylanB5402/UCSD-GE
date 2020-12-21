@@ -3,11 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import InputBox from './Input';
-import InputProps from './InputProps';
 
 function App() {
-  let p: InputProps = {x:1}; 
-  let box: InputBox = new InputBox(p);
   return (
     <Container className = "p1">
       <Jumbotron>
@@ -41,7 +38,7 @@ function App() {
       </Container>
 
       <Container className = "input-boxes">
-        <InputBox x = {1}/>
+        <InputBox/>
       </Container>
     </Container>
     
