@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import InputBox from './Input';
+import InputArea from './InputArea';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
       </Container>
 
       <Container className = "input-boxes">
-        <InputBox/>
+        <InputArea/>
       </Container>
     </Container>
     

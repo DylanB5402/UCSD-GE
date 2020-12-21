@@ -5,6 +5,11 @@ class InputBox extends Component<InputProps, InputState> {
 
     constructor(props : InputProps) {
         super(props);
+        this.state = {
+            apClass: "",
+            score: 0,
+        }
+        
     }
 
     render() {
@@ -13,7 +18,7 @@ class InputBox extends Component<InputProps, InputState> {
                 <Form.Group>
                     <Form.Row>
                         <Col sm = {8}>
-                            <Form.Control as="select">
+                            <Form.Control as ="select" onChange = {e => this.setState({apClass: e.target.value})}>
                                 <option> Choose... </option>
                                 <option> AP Art (Drawing, 2D Art and Design, 3D Art and Design) </option>
                                 <option> AP Art History </option>
@@ -53,7 +58,7 @@ class InputBox extends Component<InputProps, InputState> {
                             </Form.Control>
                         </Col>
                         <Col sm = {2}>
-                            <Form.Control as="select">
+                            <Form.Control as="select" onChange = {e => this.setState({score: Number(e.target.value)})}>
                                 <option> Choose... </option>
                                 <option>1</option>
                                 <option>2</option>
@@ -63,8 +68,10 @@ class InputBox extends Component<InputProps, InputState> {
                                 <option>6</option>
                                 <option>7</option>
                             </Form.Control>
-                        </Col>
+                        </Col>  
                     </Form.Row>
+                        {/* <p>{this.state.apClass}</p>
+                        <p>{this.state.score}</p> */}
                 </Form.Group>
             </Container>
         )   
@@ -75,7 +82,7 @@ type InputProps = {
 }
 
 type InputState = {
-    class: String;
+    apClass: String;
     score: Number;
 }
 
