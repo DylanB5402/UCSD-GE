@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ucsd-ge/static/css/main.36906707.chunk.css",
+    "main.js": "/ucsd-ge/static/js/main.cca7cf09.chunk.js",
+    "main.js.map": "/ucsd-ge/static/js/main.cca7cf09.chunk.js.map",
+    "runtime-main.js": "/ucsd-ge/static/js/runtime-main.c2b91ab4.js",
+    "runtime-main.js.map": "/ucsd-ge/static/js/runtime-main.c2b91ab4.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/ucsd-ge/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8467fec7.chunk.js": "/ucsd-ge/static/js/2.8467fec7.chunk.js",
+    "static/js/2.8467fec7.chunk.js.map": "/ucsd-ge/static/js/2.8467fec7.chunk.js.map",
+    "static/js/3.0f9409e4.chunk.js": "/ucsd-ge/static/js/3.0f9409e4.chunk.js",
+    "static/js/3.0f9409e4.chunk.js.map": "/ucsd-ge/static/js/3.0f9409e4.chunk.js.map",
+    "index.html": "/ucsd-ge/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/ucsd-ge/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.36906707.chunk.css.map": "/ucsd-ge/static/css/main.36906707.chunk.css.map",
+    "static/js/2.8467fec7.chunk.js.LICENSE.txt": "/ucsd-ge/static/js/2.8467fec7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b91ab4.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8467fec7.chunk.js",
+    "static/css/main.36906707.chunk.css",
+    "static/js/main.cca7cf09.chunk.js"
+  ]
+}
