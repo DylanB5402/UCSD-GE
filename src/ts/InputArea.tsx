@@ -14,7 +14,7 @@ class InputArea extends Component<inputAreaProps, inputAreaState> {
     
     inputBoxes: String[];
     alpha: InputBox;
-
+    
     constructor(props: inputAreaProps) {
         super(props);
         this.inputBoxes = [];

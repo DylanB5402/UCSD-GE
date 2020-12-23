@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import InputArea from './InputArea';
-import Parent from './Parent';
 
 function App() {
   return (

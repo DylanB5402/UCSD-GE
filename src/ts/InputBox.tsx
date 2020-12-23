@@ -12,11 +12,6 @@ class InputBox extends Component<InputProps, InputState> {
         }
     }
 
-    getAPClass(): String {
-        return this.state.apClass;
-        
-    }
-
     render() {
         return (
             <Container>
