@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Container, Form    } from 'react-bootstrap';
+import InputProps from './InputProps';
 
 class InputBox extends Component<InputProps, InputState> {
 
@@ -9,6 +10,10 @@ class InputBox extends Component<InputProps, InputState> {
             apClass: "",
             score: 0,
         }
+    }
+
+    getAPClass(): String {
+        return this.state.apClass;
         
     }
 
@@ -70,16 +75,15 @@ class InputBox extends Component<InputProps, InputState> {
                             </Form.Control>
                         </Col>  
                     </Form.Row>
-                        {/* <p>{this.state.apClass}</p>
-                        <p>{this.state.score}</p> */}
+                        <p>{this.state.apClass}</p>
+                        <p>{this.state.score}</p>
                 </Form.Group>
             </Container>
         )   
     }
 }
 
-type InputProps = {
-}
+
 
 type InputState = {
     apClass: String;

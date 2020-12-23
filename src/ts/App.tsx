@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
-import InputBox from './Input';
 import InputArea from './InputArea';
+import Parent from './Parent';
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
       <Container className = "input-boxes">
         <InputArea/>
       </Container>
+      {/* <Parent/> */}
     </Container>
     
   );
